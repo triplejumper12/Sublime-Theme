@@ -336,7 +336,7 @@
     {
       //labels
         "class": "sidebar_label",
-        "color": [150, 150, 150],
+        "color": [125, 125, 125],
 	      "shadow_color": [70, 70, 70],
         "shadow_offset": [0, 0]
     },
@@ -344,7 +344,7 @@
       //labels
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [200, 200, 200],
+        "color": [210, 210, 210],
         "shadow_color": [70, 70, 70],
         "shadow_offset": [0, 0]
     },
