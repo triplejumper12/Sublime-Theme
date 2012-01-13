@@ -219,14 +219,14 @@
     },
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Default/tool_tip_background.png",
+        "layer0.texture": "Theme - Default/panel_row.png",
         "layer0.inner_margin": [2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [3, 3]
     },
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0, 255]
+        "color": [150, 150, 150, 255]
     },
     {
         "class": "disclosure_button_control",
@@ -256,7 +256,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Default/row_highlight_wide.png",
+        "layer0.texture": "Theme - Default/row_highlight_dark.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -287,8 +287,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-		//changed. commented out
-        //"layer0.opacity": 0.5,
+        "layer0.opacity": 0.5,
         "layer0.texture": "Theme - Default/dirty_circle_light.png"
     },
     {
@@ -385,71 +384,73 @@
         "row_padding": [2, 1],
         "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
-        "dark_content": false
+        "dark_content": true
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Default/panel_row.png",
+        //"layer0.texture": "Theme - Default/panel_row.png",
+        "layer0.tint": [30, 30, 28],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Default/panel_row_selected.png"
+        //"layer0.texture": "Theme - Default/panel_row_selected.png",
+        "layer0.tint": [60, 60, 58]
     },
     {
         "class": "quick_panel_label",
-        "fg": [200, 200, 200, 255],
-        "match_fg": [225, 225, 225, 255],
-        "bg": [87, 87, 87, 255],
-        "selected_fg": [200, 200, 200, 255],
-        "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [64, 64, 64, 255]
+        "fg": [150, 150, 150, 255],
+        "match_fg": [170, 170, 170, 255],
+        "bg": [70, 70, 70, 255],
+        "selected_fg": [170, 170, 170, 255],
+        "selected_match_fg": [190, 190, 190, 255],
+        "selected_bg": [70, 70, 70, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [255, 255, 255, 100],
-        "match_fg": [255, 255, 255, 255],
-        "bg": [87, 87, 87, 255],
-        "selected_fg": [255, 255, 255, 100],
-        "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [64, 64, 64, 255]
+        "fg": [150, 150, 150, 255],
+        "match_fg": [170, 170, 170, 255],
+        "bg": [70, 70, 70, 255],
+        "selected_fg": [170, 170, 170, 255],
+        "selected_match_fg": [190, 190, 190, 255],
+        "selected_bg": [70, 70, 70, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [28, 177, 239, 255],
-        "bg": [87, 87, 87, 255],
-        "selected_fg": [166, 229, 255, 255],
-        "selected_bg": [64, 64, 64, 255]
+        "fg": [150, 150, 150, 255],
+        "bg": [70, 70, 70, 255],
+        "selected_fg": [170, 170, 170, 255],
+        "selected_bg": [70, 70, 70, 255]
     },
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - Default/panel_row.png",
+        "layer0.texture": "Theme - Default/panel_row_selected.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Default/panel_row_selected.png"
+        "layer0.texture": "Theme - Default/panel_row.png"
     },
 
     {
         "class": "auto_complete",
         "row_padding": [2, 1],
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [30, 30, 28],
         "layer0.opacity": 1.0,
-        "dark_content": false
+        "dark_content": true
     },
     {
         "class": "auto_complete_label",
-        "fg": [72, 72, 72, 255],
-        "match_fg": [0, 0, 0, 255],
-        "bg": [255, 255, 255, 255],
-        "selected_fg": [72, 72, 72, 255],
-        "selected_match_fg": [0, 0, 0, 255],
-        "selected_bg": [156, 185, 223, 255]
+        "fg": [150, 150, 150, 255],
+        "match_fg": [170, 170, 170, 255],
+        "bg": [70, 70, 70, 255],
+        "selected_fg": [170, 170, 170, 255],
+        "selected_match_fg": [190, 190, 190, 255],
+        "selected_bg": [70, 70, 70, 255]
     },
 
     {
