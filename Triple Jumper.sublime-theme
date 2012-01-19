@@ -361,8 +361,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "Theme - Default/input_field.png",
-        //"layer0.tint": 0,
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": [4, 5, 4, 3],
         "content_margin": [3, 3, 3, 3]
     },
